@@ -13,27 +13,35 @@ A fish plugin to remove unneeded functions in other fish plugins automatically.
 
 ## Repository Structure
 
-- `.gitattributes` - Git configuration attributes for repository handling.
 - `completions/` - Likely contains command-line completions for fish shell.
 - `conf.d/` - Likely contains configuration files loaded at shell startup.
 - `functions/` - Houses the main functions for the plugin.
 
 ## Installation
-
-> **Note:** Installation and usage instructions will be provided once more details about setup and usage are clarified.
+Using fisher
+`fisher install SPREEKDOS/rm-plugin-functions`
 
 ## Usage
-
-> **Note:** Usage examples and commands will be added when more information is available.
-
+rm-plugin-functions
+    remove functions in ~/.config/fish/functions using function names from ~/.config/fish/rm-plugin-functions
+rm-plugin-functions a|add FUNCTION
+    add function name to ~/.config/fish/rm-plugin-functions file
+rm-plugin-functions u|update
+    run fisher update before running the script
+rm-plugin-functions l|list
+    list ~/.config/fish/rm-plugin-functions file
+rm-plugin-functions l|list functions
+    list ~/.config/fish/functions directory
+rm-plugin-functions r|remove FUNCTION
+    remove function name from ~/.config/fish/rm-plugin-functions file
+    
 ## Contributing
 
 If you'd like to contribute, feel free to open a pull request or issue.
 
 ## License
 
-> **Note:** No license specified yet. Please add a license file to clarify usage and contribution terms.
-
+MIT
 ---
 
 For any questions or suggestions, please visit the [GitHub repo](https://github.com/SPREEKDOS/rm-plugin-functions).
