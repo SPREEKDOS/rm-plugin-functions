@@ -19,6 +19,7 @@ A fish plugin to remove unneeded functions in other fish plugins automatically.
 
 ## Installation
 Using fisher
+
 `fisher install SPREEKDOS/rm-plugin-functions`
 
 ## Usage
